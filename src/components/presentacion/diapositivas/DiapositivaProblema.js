@@ -90,7 +90,7 @@ const DiapositivaProblema = () => {
         {/* Columna izquierda */}
         <div className="w-1/2 pr-6 flex flex-col animate-slide-in-left">
           <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-6 border border-white/10 shadow-2xl flex flex-col">
-            <h2 className="text-3xl font-bold mb-6 text-yellow-100">Diagnóstico de la Situación Actual</h2>
+            <h2 className="text-3xl font-bold mb-6 text-yellow-100">Diagnóstico Inicial de la Situación</h2>
             
             <div className="space-y-6 flex-grow">
               {/* Elementos del diagnóstico con iconos */}
@@ -101,9 +101,9 @@ const DiapositivaProblema = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Gestión de Documentos Obsoleta</h3>
+                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Gestión Tradicional de Documentos</h3>
                   <p className="text-white/90">
-                    100% de los registros y expedientes en formato físico, sin respaldos digitales ni sistema de organización eficiente.
+                    Todos los registros y expedientes se encontraban en formato físico, sin implementaciones digitales ni un sistema de organización optimizado, lo que evidenció la oportunidad de modernización.
                   </p>
                 </div>
               </div>
@@ -115,9 +115,9 @@ const DiapositivaProblema = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Tiempos de Respuesta Prolongados</h3>
+                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Tiempos de Respuesta Extendidos</h3>
                   <p className="text-white/90">
-                    El tiempo promedio para procesar solicitudes es de 8 días hábiles, generando quejas frecuentes de los ciudadanos.
+                    El tiempo promedio para procesar solicitudes era de aproximadamente 8 días hábiles, lo que en ocasiones generaba insatisfacción y resaltaba la necesidad de optimizar la eficiencia.
                   </p>
                 </div>
               </div>
@@ -129,9 +129,9 @@ const DiapositivaProblema = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Infraestructura Tecnológica Limitada</h3>
+                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Infraestructura Tecnológica Modesta</h3>
                   <p className="text-white/90">
-                    Solo 2 computadoras para 7 funcionarios, conexión a internet inestable y ausencia de software especializado.
+                    La infraestructura contaba con recursos limitados, con 2 computadoras para 7 colaboradores, conexión a internet poco consistente y ausencia de software especializado, lo que indicó la necesidad de actualización.
                   </p>
                 </div>
               </div>
@@ -143,9 +143,9 @@ const DiapositivaProblema = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Personal con Limitadas Habilidades Digitales</h3>
+                  <h3 className="text-xl font-semibold text-orange-200 mb-2">Desafíos en Competencias Digitales</h3>
                   <p className="text-white/90">
-                    El 60% del personal presenta dificultades para utilizar herramientas digitales básicas como hojas de cálculo y correo electrónico.
+                    El 60% del equipo presentaba desafíos en el manejo de herramientas digitales básicas, tales como hojas de cálculo y correo electrónico, evidenciando un área de oportunidad para fortalecer dichas competencias.
                   </p>
                 </div>
               </div>
@@ -156,23 +156,23 @@ const DiapositivaProblema = () => {
               <ul className="space-y-1 pl-5">
                 <li className="flex items-center">
                   <span className="text-red-400 mr-2">•</span>
-                  <span>Tiempos de respuesta prolongados en la entrega de servicios</span>
+                  <span>Procesos con tiempos extendidos que afectan la eficiencia en la entrega de servicios</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-red-400 mr-2">•</span>
-                  <span>Duplicación de esfuerzos y posibles errores en el registro de datos</span>
+                  <span>Redundancias en procesos y riesgo de errores en el registro de datos</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-red-400 mr-2">•</span>
-                  <span>Dificultades para monitorear el impacto real de los programas sociales</span>
+                  <span>Limitaciones en el seguimiento y evaluación del impacto de programas sociales</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-red-400 mr-2">•</span>
-                  <span>Limitaciones en la rendición de cuentas y transparencia</span>
+                  <span>Oportunidades de mejora en la rendición de cuentas y transparencia</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-red-400 mr-2">•</span>
-                  <span>Riesgos en la trazabilidad y seguimiento de casos</span>
+                  <span>Desafíos en la trazabilidad y seguimiento de casos</span>
                 </li>
               </ul>
             </div>
@@ -181,7 +181,7 @@ const DiapositivaProblema = () => {
               <div className="relative w-full max-w-md">
                 <img 
                   src="https://raw.githubusercontent.com/ABoldCodeU/imagenes-para-proyectos/main/imagenes/problemas-digitalizacion.png"
-                  alt="Problema de Digitalización" 
+                  alt="Desafío en Digitalización" 
                   className="w-full rounded-xl object-cover bg-black/30 backdrop-blur-sm border border-white/10 p-2"
                   style={{ boxShadow: "0 0 30px rgba(239, 68, 68, 0.3)" }}
                 />
@@ -194,7 +194,7 @@ const DiapositivaProblema = () => {
         <div className="w-1/2 pl-6 flex flex-col animate-slide-in-right">
           <div className="bg-black/30 backdrop-blur-lg rounded-2xl border border-white/10 shadow-2xl flex flex-col overflow-hidden">
             <div className="p-6">
-              <h2 className="text-3xl font-bold mb-6 text-yellow-100">Diagnóstico en Cifras</h2>
+              <h2 className="text-3xl font-bold mb-6 text-yellow-100">Datos del Diagnóstico Inicial</h2>
               
               {/* Métricas con iconos */}
               <div className="grid grid-cols-3 gap-6 mb-8">
@@ -204,7 +204,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-semibold text-orange-200 mb-1 text-center">Registros en Papel</h3>
+                  <h3 className="text-lg font-semibold text-orange-200 mb-1 text-center">Registros en Formato Tradicional</h3>
                   <div className="text-3xl font-bold text-white">80%</div>
                 </div>
                 
@@ -214,7 +214,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-semibold text-orange-200 mb-1 text-center">Equipos Funcionales</h3>
+                  <h3 className="text-lg font-semibold text-orange-200 mb-1 text-center">Recursos Tecnológicos Disponibles</h3>
                   <div className="text-3xl font-bold text-white">33%</div>
                 </div>
                 
@@ -224,7 +224,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-semibold text-orange-200 mb-1 text-center">Competencias Digitales</h3>
+                  <h3 className="text-lg font-semibold text-orange-200 mb-1 text-center">Desarrollo de Competencias Digitales</h3>
                   <div className="text-3xl font-bold text-white">40%</div>
                 </div>
               </div>
@@ -237,7 +237,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Mapeo inicial de procesos de ingreso y entrega de apoyos</span>
+                  <span>Mapeo preliminar de procesos de ingreso y distribución de apoyos</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center mr-3">
@@ -245,7 +245,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Digitalización parcial de registros críticos mediante hojas de cálculo</span>
+                  <span>Digitalización parcial de registros clave mediante hojas de cálculo</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center mr-3">
@@ -253,7 +253,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Capacitación básica y disposición positiva del personal para el cambio</span>
+                  <span>Capacitación inicial y actitud proactiva del personal hacia la transformación digital</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center mr-3">
@@ -261,7 +261,7 @@ const DiapositivaProblema = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Mejor organización lógica de archivos y respaldo de datos</span>
+                  <span>Optimización en la organización de archivos y mejora en los respaldos de datos</span>
                 </div>
               </div>
               
@@ -279,12 +279,12 @@ const DiapositivaProblema = () => {
               
               {/* Impacto en la Comunidad */}
               <div className="p-6 bg-gradient-to-r from-red-900/70 to-orange-900/70 mt-auto">
-                <h3 className="text-xl font-bold mb-3 text-yellow-100">Impacto en la Comunidad</h3>
+                <h3 className="text-xl font-bold mb-3 text-yellow-100">Retos en la Gestión Administrativa</h3>
                 <p className="text-white/90 mb-4">
-                  Las limitaciones detectadas generan demoras en la entrega de apoyos sociales a familias en situación de vulnerabilidad, afectando la efectividad de los programas sociales y dificultando la coordinación entre departamentos para atender integralmente las necesidades de la población.
+                Aunque el Área de Desarrollo Social ha implementado iniciativas valiosas y cuenta con el respaldo de la comunidad, todavía se presentan oportunidades de mejora en la organización de la información y la coordinación de procesos. La adopción de herramientas digitales y la estandarización de procedimientos podrían agilizar la entrega de apoyos y brindar una atención más oportuna a la ciudadanía.
                 </p>
                 <p className="text-white/80 italic text-sm border-l-4 border-yellow-500 pl-3">
-                  "El ordenamiento de expedientes y la incorporación de algunos métodos digitales han empezado a agilizar la entrega de apoyos, pero todavía hay casos en que las personas beneficiarias esperan varios días para recibir respuesta." — Diagnóstico 2024
+                  "Este diagnóstico, realizado al inicio de las prácticas profesionales, identificó áreas con oportunidades significativas de mejora. Desde entonces, se han implementado diversas estrategias que inspiran confianza en un avance sustancial en la eficiencia y calidad de los servicios." — Diagnóstico Inicial 2024
                 </p>
               </div>
             </div>

@@ -126,73 +126,6 @@ const DiapositivaSolucion = () => {
     }
   ];
 
-  // Beneficios Esperados (ahora se mostrarán en la columna izquierda)
-  const beneficios = [
-    {
-      title: "Mayor Eficiencia",
-      description: "Reducción de tiempos y aumento de productividad en procesos administrativos",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none"
-             viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-      )
-    },
-    {
-      title: "Servicio Mejorado",
-      description: "Atención más ágil y de mayor calidad para los beneficiarios de programas sociales",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none"
-             viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M17 20h5v-2a3 3 0 
-                00-5.356-1.857M17 20H7m10 
-                0v-2c0-.656-.126-1.283-.356-1.857M7 
-                20H2v-2a3 3 0 
-                015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 
-                0a5.002 5.002 0 
-                019.288 0M15 7a3 3 0 
-                11-6 0 3 3 0 
-                016 0zm6 3a2 2 0 
-                11-4 0 2 2 0 
-                014 0zM7 10a2 2 0 
-                11-4 0 2 2 0 
-                014 0z" />
-        </svg>
-      )
-    },
-    {
-      title: "Mayor Seguridad",
-      description: "Protección de datos sensibles y copias de seguridad automatizadas",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none"
-             viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 
-                0112 2.944a11.955 11.955 0 
-                01-8.618 3.04A12.02 12.02 0 
-                003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 
-                9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-        </svg>
-      )
-    },
-    {
-      title: "Mejor Seguimiento",
-      description: "Monitoreo en tiempo real del progreso e impacto de los programas sociales",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none"
-             viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M7 12l3-3 3 3 4-4M8 21l4-4 4 
-                4M3 4h18M4 4h16v12a1 1 0 
-                01-1 1H5a1 1 0 
-                01-1-1V4z" />
-        </svg>
-      )
-    }
-  ];
-
   return (
     <div
       className="min-h-screen w-full overflow-y-auto relative text-white"
@@ -338,27 +271,13 @@ const DiapositivaSolucion = () => {
               </div>
             </div>
 
-            {/* Panel de Beneficios Esperados (debajo de Componentes) */}
-            <div className="mt-6 bg-black/30 backdrop-blur-md rounded-2xl p-5 border border-white/20 shadow-2xl animate-fade-in">
-              <h3 className="text-2xl font-bold text-center text-green-100 mb-4">Beneficios Esperados</h3>
-              <div className="grid grid-cols-2 gap-4">
-                {beneficios.map((b, i) => (
-                  <div
-                    key={i}
-                    className="flex flex-col items-center bg-emerald-900/30 p-4 rounded-xl transition-all duration-300 hover:bg-emerald-900/50 hover:-translate-y-1"
-                  >
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-emerald-600 rounded-full flex items-center justify-center mb-3">
-                      {b.icon}
-                    </div>
-                    <h4 className="text-lg font-semibold text-green-200 mb-2 text-center">
-                      {b.title}
-                    </h4>
-                    <p className="text-center text-sm">
-                      {b.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
+            {/* Imagen más pequeña y pegada */}
+            <div className="mt-2 bg-black/30 backdrop-blur-md rounded-2xl p-3 border border-white/20 shadow-2xl animate-fade-in">
+              <img 
+                src="https://github.com/ABoldCodeU/imagenes-para-proyectos/blob/main/solucion.png"
+                alt="Solución"
+                className="mx-auto w-1/2 object-contain rounded-lg shadow-xl"
+              />
             </div>
           </div>
           
