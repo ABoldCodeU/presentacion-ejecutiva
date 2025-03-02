@@ -274,7 +274,7 @@ const DiapositivaSolucion = () => {
             {/* Imagen más pequeña y pegada */}
             <div className="mt-2 bg-black/30 backdrop-blur-md rounded-2xl p-3 border border-white/20 shadow-2xl animate-fade-in">
               <img 
-                src="https://github.com/ABoldCodeU/imagenes-para-proyectos/blob/main/solucion.png"
+                src="https://raw.githubusercontent.com/ABoldCodeU/imagenes-para-proyectos/main/solucion.png"
                 alt="Solución"
                 className="mx-auto w-1/2 object-contain rounded-lg shadow-xl"
               />
